@@ -38,6 +38,10 @@ and to your application/library target, add "Metrics" to your dependencies:
 
 ### Emitting metrics information
 
+something here \\/
+@Snippet(path: "swift-metrics/Snippets/basics")
+something there /\
+
 ```swift
 // 1) Import the metrics API package.
 import Metrics

@@ -22,6 +22,9 @@ let package = Package(
         .library(name: "Metrics", targets: ["Metrics"]),
         .library(name: "MetricsTestKit", targets: ["MetricsTestKit"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/swiftlang/swift-docc-plugin", from: "1.0.0"),
+    ],
     targets: [
         .target(
             name: "CoreMetrics"
